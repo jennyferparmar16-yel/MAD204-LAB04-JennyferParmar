@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ MAD204 – Lab 4
+ File: dialog_edit_note.xml
+ Name: Jennyfer Parmar
+ Student ID: A002021240
+ Date: 07 December 2025
+
+ Description:
+ This layout defines a custom dialog used to edit an existing note.
+ It allows the user to update the note title and content.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/dialogTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title" />
+
+    <EditText
+        android:id="@+id/dialogContentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Content" />
+</LinearLayout>
